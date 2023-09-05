@@ -13,6 +13,8 @@
 		7E7178B52A9DBD38003B70B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E7178B42A9DBD38003B70B2 /* Preview Assets.xcassets */; };
 		7E7178C32A9DC0A4003B70B2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7178C22A9DC0A4003B70B2 /* Extensions.swift */; };
 		7E7178C52A9DC209003B70B2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7178C42A9DC208003B70B2 /* HomeView.swift */; };
+		7E891DBD2A9F01BD00083DF1 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E891DBC2A9F01BD00083DF1 /* TabBar.swift */; };
+		7E891DBF2A9F053D00083DF1 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E891DBE2A9F053D00083DF1 /* Shapes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		7E7178B42A9DBD38003B70B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7E7178C22A9DC0A4003B70B2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		7E7178C42A9DC208003B70B2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7E891DBC2A9F01BD00083DF1 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		7E891DBE2A9F053D00083DF1 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		7E7178BD2A9DBFE4003B70B2 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				7E891DBE2A9F053D00083DF1 /* Shapes.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -110,6 +115,7 @@
 		7E7178BF2A9DC013003B70B2 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				7E891DBC2A9F01BD00083DF1 /* TabBar.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -203,6 +209,8 @@
 				7E7178C52A9DC209003B70B2 /* HomeView.swift in Sources */,
 				7E7178C32A9DC0A4003B70B2 /* Extensions.swift in Sources */,
 				7E7178AE2A9DBD36003B70B2 /* Weather_suiApp.swift in Sources */,
+				7E891DBD2A9F01BD00083DF1 /* TabBar.swift in Sources */,
+				7E891DBF2A9F053D00083DF1 /* Shapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,37 +9,43 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        ZStack {
-            // MARK: Background color
-            Color.background
-                .ignoresSafeArea()
-            
-            // MARK: Backgruond image
-            Image("Background")
-                .resizable()
-                .ignoresSafeArea()
-            
-            // MARK: House image
-            Image("House")
-                .frame(maxHeight: .infinity, alignment: .top)
-                .padding(.top, 257)
-            
-            // MARK: Current weather
-            VStack(spacing: -10) {
-                Text("Montreal")
-                    .font(.largeTitle)
+        NavigationView {
+            ZStack {
+                // MARK: Background color
+                Color.background
+                    .ignoresSafeArea()
                 
-                VStack {
+                // MARK: Backgruond image
+                Image("Background")
+                    .resizable()
+                    .ignoresSafeArea()
+                
+                // MARK: House image
+                Image("House")
+                    .frame(maxHeight: .infinity, alignment: .top)
+                    .padding(.top, 257)
+                
+                // MARK: Current weather
+                VStack(spacing: -10) {
+                    Text("Montreal")
+                        .font(.largeTitle)
                     
-                    Text(attributedString)
+                    VStack {
+                        
+                        Text(attributedString)
+                        
+                        Text("H:24°   L:18°")
+                            .font(.title3.weight(.semibold))
+                    }
                     
-                    Text("H:24°   L:18°")
-                        .font(.title3.weight(.semibold))
+                    Spacer()
                 }
+                .padding(.top, 51)
                 
-                Spacer()
+                // MARK: Tab bar
+                TabBar(action: {})
             }
-            .padding(.top, 51)
+            .navigationBarHidden(true)
         }
     }
     
