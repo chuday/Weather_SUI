@@ -32,7 +32,6 @@ struct ForecastView: View {
                                 ForecastCard(forecast: forecast, forecastPeriod: .daily)
                             }
                             .transition(.offset(x: 430))
-
                         }
                     }
                     .padding(.vertical, 20)
